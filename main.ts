@@ -61,10 +61,5 @@ basic.forever(function () {
         minutes += 1
     } else {
         minutes = 0
-        if (hours < 23) {
-            hours += 1
-        } else {
-            hours = 0
-        }
     }
 })
