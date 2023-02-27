@@ -11,12 +11,13 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.AB, function () {
-    if (minutes <= 9) {
+    if (minutes < 9) {
         time = "" + hours + (":" + "0" + ("" + minutes))
         basic.clearScreen()
         basic.showString(time)
     } else {
         time = "" + hours + ":" + ("" + minutes)
+        basic.showString(time)
     }
 })
 input.onButtonPressed(Button.B, function () {
