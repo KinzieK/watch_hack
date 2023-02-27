@@ -17,14 +17,19 @@ input.onButtonPressed(Button.AB, function () {
         basic.showString(time)
     } else {
         time = "" + hours + ":" + ("" + minutes)
+        basic.clearScreen()
         basic.showString(time)
     }
 })
 input.onButtonPressed(Button.B, function () {
     if (minutes < 59) {
+        basic.clearScreen()
         minutes += 1
+        basic.showString("" + (minutes))
     } else {
+        basic.clearScreen()
         minutes = 0
+        basic.showString("" + (minutes))
     }
 })
 let hours = 0
