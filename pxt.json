@@ -7,7 +7,9 @@
         "radio": "*",
         "microphone": "*",
         "pxt-kitronik-rtc": "github:kitronikltd/pxt-kitronik-rtc#v1.0.2",
-        "microbit-pxt-timeanddate": "github:bsiever/microbit-pxt-timeanddate#v2.0.33"
+        "microbit-pxt-timeanddate": "github:bsiever/microbit-pxt-timeanddate#v2.0.33",
+        "datalogger": "*",
+        "MonkMakes 7-Segment": "github:monkmakes/monkmakes-7-segment#v1.0.0"
     },
     "files": [
         "main.blocks",
